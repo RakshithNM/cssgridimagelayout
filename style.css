@@ -12,15 +12,20 @@ main {
 
 .scale {
   transform: scale(1);
-  transition: all 0.2s ease-in;
   position: relative;
   z-index: 1;
+  transition: all 0.2s ease-in;
+}
+
+.scale > img {
+  object-fit: contain;
 }
 
 .scale:hover {
   transform: scale(1.5);
-  transition: all 0.2s ease-out;
   overflow: hidden;
+  z-index: 9999;
+  transition: all 0.2s ease-out;
 }
 
 .img1 { 
