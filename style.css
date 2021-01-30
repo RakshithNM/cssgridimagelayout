@@ -8,6 +8,7 @@ main {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px; 
+  height: 100vh;
 }
 
 .scale {
@@ -30,30 +31,24 @@ img {
 
 .img1 { 
   grid-area: 1 / 1 / 2 / 2; 
-  height: 100vh;
 }
 
 .img2 { 
   grid-area: 1 / 2 / 2 / 3;
-  height: 100vh;
 }
 
 .img3 { 
   grid-area: 1 / 3 / 2 / 4; 
-  height: 100vh;
 }
 
 .img4 { 
   grid-area: 1 / 4 / 2 / 5; 
-  height: 100vh;
 }
 
 .img5 { 
   grid-area: 1 / 5 / 2 / 6; 
-  height: 100vh;
 } 
 
 .img6 {
   grid-area: 1 / 6 / 2 / 7;
-  height: 100vh;
 }
